@@ -10,6 +10,7 @@ The automation test script of this project was developed with Java in Intellij I
 7. Doesen't include any sleep method. 
 8. Doesen't have any index number in webelements.
 9. This project includes XML file for generating emailable TestNG report, and it also make the test ready to run in Jenkins server.
+10. This project was successfully built on Jenkins Server. 
 
 ## Automation Test Cases
 - ### Front-End
@@ -75,6 +76,24 @@ I used both Cucumber and TestNG Frameworks for running this project.
 
 #### Generated TestNG emailable Report
 ![testNGReport](https://user-images.githubusercontent.com/105384992/168124911-84ba1bb9-5be5-4013-a34b-157e6f1735e3.jpg)
+
+## CI/CD pipeline Design
+#### I used Jenkins to implement Continuous Integration (CI) and Continuous Delivery (CD) for the project development.
+![Jenkins](https://user-images.githubusercontent.com/105384992/168153586-761d5062-7fb9-4890-b504-69413a9bf981.png)
+
+#### Firts, I set up the jenkins configuration to get the server ready for buil the job.
+ Note:I exported the Config.xml file for the job which contains information about Jenkins like version, Pipeline information, owner, etc. It also contains the workspace Directory path and builds Directory path. 
+ 
+![Jenkins-config](https://user-images.githubusercontent.com/105384992/168153571-446cd76f-58c9-4b89-aa19-3f793146b875.png)
+
+#### After the configurations are set, I built the job. It runs successfully, now the job is ready for schuduling. 
+![Jenkins-built](https://user-images.githubusercontent.com/105384992/168153577-66e8bbd6-39be-476d-86bc-baca6b033eda.png)
+
+
+
+
+
+
 
 
  
