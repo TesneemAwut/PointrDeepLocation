@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Pointr Webpage Test Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"></listener>
+    </listeners>
+    <test name="Pointr Deep Location Webpage Function Test " >
+        <classes>
+            <class name="com.pointr.testng.testNGRunner"/>
+        </classes>
+    </test>
+</suite>
