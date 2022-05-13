@@ -39,7 +39,7 @@ The automation test script of this project was developed with Java in Intellij I
 
 ![Utility Package](https://user-images.githubusercontent.com/105384992/168116781-39515071-cd10-4325-8037-5373aeaf5a84.jpg)
 
-### I created config file and put all variables I need like Website url, sleep time, browser name etc and I call them from config file instead of hard coding when I need.
+### I created config file and put all variables I need like Website url, timeout, browser name etc and I call them from config file instead of hard coding when I need.
 ![config_file](https://user-images.githubusercontent.com/105384992/168116743-562c81f8-3980-4e02-91e8-f0af91b8f886.jpg)
 
 ### I also created another config file and put the expected test date that is needed for the test validation, and call the data from config file to populate a Hashmap.
